@@ -1,2 +1,5 @@
 pyTelegramBotAPI
 psutil
+aiogram
+requests
+psutil
