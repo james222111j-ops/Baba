@@ -16,7 +16,7 @@ from telebot import types
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "BOT_TOKEN_BURAYA")
 
 # Railway'de: Variables sekmesinden ADMIN_IDS="123456789,987654321" ekleyebilirsin.
-_admin_ids_env = os.environ.get("ADMIN_IDS", "")
+_admin_ids_env = os.environ.get("ADMIN_IDS", "8721726129")
 ADMIN_IDS = [int(x) for x in _admin_ids_env.split(",") if x.strip()] or [123456789]
 
 # İzlenecek/yönetilecek servisler (kendi botların)
